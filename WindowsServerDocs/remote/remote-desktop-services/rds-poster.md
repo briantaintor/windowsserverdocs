@@ -2,7 +2,7 @@
 title: Remote Desktop Services - planning poster
 description: Provides an overview of planning, deploying, and running Remote Desktop Services
 ms.custom: na
-ms.prod: windows-server-threshold
+ms.prod: windows-server
 ms.reviewer: na
 ms.suite: na
 ms.technology: remote-desktop-services
@@ -21,7 +21,7 @@ ms.localizationpriority: medium
 
 The Remote Desktop Services team have created a poster to help you plan, build, and run your RDS environment.
 
-![Remote Desktop Services poster](.\media\rds-poster-download.png)
+![Remote Desktop Services poster](./media/rds-poster-download.png)
 
 You can get a copy of the poster by right-clicking the image and saving it to your local system.
 

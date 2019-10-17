@@ -2,7 +2,7 @@
 title: Create your disaster recovery plan
 description: Learn how to create a disaster recovery plan for your RDS deployment.
 ms.custom: na
-ms.prod: windows-server-threshold
+ms.prod: windows-server
 ms.reviewer: na
 ms.suite: na
 ms.technology: remote-desktop-services
@@ -15,7 +15,7 @@ manager: dongill
 ---
 # Create your disaster recovery plan for RDS
 
->Applies To: Windows Server (Semi-Annual Channel), Windows Server 2016
+>Applies to: Windows Server (Semi-Annual Channel), Windows Server 2019, Windows Server 2016
 
 You can create a disaster recovery plan in Azure Site Recovery to automate the failover process. Add all RDS component VMs to the recovery plan.
 

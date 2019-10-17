@@ -8,7 +8,7 @@ author: maertendMSFT
 title: OpenSSH Server Configuration for Windows
 ---
 
-# OpenSSH Server Configuration for Windows 10 1809 and Server 2019#
+# OpenSSH Server Configuration for Windows 10 1809 and Server 2019
 
 This topic covers the Windows-specific configuration for OpenSSH Server (sshd). 
 
@@ -27,7 +27,7 @@ The following commands shows the current path setting, and add the default OpenS
 Command shell | Command to use
 ------------- | -------------- 
 Command | path
-PowerShell | $env:\path
+PowerShell | $env:path
 
 Configuring the default ssh shell is done in the Windows registry by adding the full path to the shell executable to Computer\HKEY_LOCAL_MACHINE\SOFTWARE\OpenSSH in the string value DefaultShell. 
 
@@ -59,7 +59,7 @@ For that reason, * is added to cover FQDNs.
 Also, this approach uses "?", instead of @, to avoid conflicts with the username@host format. 
 
 Work group users/groups and internet-connected accounts are always resolved to their local account name (no domain part, similar to standard Unix names). 
-Domain users and groups are strictly resolved to [NameSamCompatible](https://docs.microsoft.com/en-us/windows/desktop/api/secext/ne-secext-extended_name_format) format - domain_short_name\user_name. 
+Domain users and groups are strictly resolved to [NameSamCompatible](https://docs.microsoft.com/windows/desktop/api/secext/ne-secext-extended_name_format) format - domain_short_name\user_name. 
 All user/group based configuration rules need to adhere to this format.
 
 Examples for domain users and groups 
